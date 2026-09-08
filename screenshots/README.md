@@ -1,3 +1,7 @@
-# Screenshot provenance and redaction plan
+# Screenshots
 
-The case study should prefer newly drawn architecture diagrams or freshly captured demo/devnet screens. Do not copy production dashboard captures until wallet, token, account, program, endpoint, operator and live-state information has been removed.
+No screenshots are published in this repository yet.
+
+Any image added here must come from a clean demo/devnet environment or be
+reviewed at full resolution after redaction. It must not expose wallet, token,
+account, program, endpoint, operator or live-state information.

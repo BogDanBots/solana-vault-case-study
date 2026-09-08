@@ -1,14 +1,16 @@
 # Security assumptions and threat model
 
-The public threat model should cover:
+The case study treats the following as explicit security boundaries:
 
 - unauthorized instruction attempts;
 - incorrect authority or delegation relationships;
 - replay, stale intent and duplicate execution;
 - accounting and balance mismatches;
-- partial provider, RPC or websocket failure;
+- partial provider, RPC or WebSocket failure;
 - malformed or adversarial external data;
 - signer compromise and the limits of a non-custodial design;
 - emergency and recovery behavior.
 
-Each item should state what the program enforces, what the client must verify, and what remains an operational assumption. Do not present this case study as an independent security audit.
+For each boundary, the public explanation separates program-enforced rules,
+client-side verification and operational assumptions. The material is an
+architecture case study, not an independent security audit.

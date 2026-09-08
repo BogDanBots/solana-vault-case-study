@@ -1,6 +1,6 @@
 # Lessons learned
 
-The final version should focus on transferable engineering lessons:
+The transferable engineering lessons from this work are:
 
 - make authority relationships explicit;
 - treat confirmation as a state transition, not a network response;
@@ -9,4 +9,5 @@ The final version should focus on transferable engineering lessons:
 - test account and accounting assumptions independently;
 - make observability useful without logging sensitive data.
 
-Remove details that reveal production strategy, deployment topology, private incidents or commercially valuable implementation decisions.
+The case study excludes production strategy, deployment topology, private
+incidents and commercially valuable implementation decisions.
